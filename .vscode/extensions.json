@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "vscjava.vscode-lombok",
+        "redhat.fabric8-analytics",
+        "vmware.vscode-boot-dev-pack",
+        "vscjava.vscode-java-pack"
+    ]
+}
