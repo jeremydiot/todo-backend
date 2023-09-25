@@ -1,3 +1,10 @@
 {
-    "java.compile.nullAnalysis.mode": "automatic"
+    "java.compile.nullAnalysis.mode": "automatic",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "files.autoSave": "off",
+    "[java]": {
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.formatOnSave": true
+    },
 }
