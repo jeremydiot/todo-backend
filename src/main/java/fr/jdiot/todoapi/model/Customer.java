@@ -1,6 +1,7 @@
 package fr.jdiot.todoapi.model;
 
 import java.util.List;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
@@ -35,5 +36,6 @@ public class Customer {
 
     @NonNull
     @OneToMany(mappedBy = "customer", orphanRemoval = true, cascade = { CascadeType.PERSIST, CascadeType.REMOVE })
+    @JsonIgnoreProperties("customer")
     private List<Task> tasks;
 }
